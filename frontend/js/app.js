@@ -44,7 +44,7 @@ window.onload = function() {
                 },
                 body: JSON.stringify({
                     title: formData.get('title'),
-                    body: formData.get('title')
+                    body: formData.get('body')
                 })
             });
 
@@ -66,7 +66,7 @@ window.onload = function() {
 
     async function fetchAllPosts(token) {
         try {
-            const response = await fetch('http://127.0.0.1:8000/posts', {
+            const response = await fetch('http://127.0.0.1:8000/login', {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
