@@ -18,7 +18,9 @@
             <input type="text" name="token" id="token">
 
             <input type="submit" value="Get">
+
         </form>
+
     </div>
 
     <div class="container">
@@ -34,6 +36,7 @@
             <textarea name="body" id="body"></textarea>
 
             <input type="submit" value="Create">
+
         </form>
         <div id="post-data"></div>
     </div>
