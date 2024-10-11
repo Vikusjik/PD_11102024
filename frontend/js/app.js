@@ -66,7 +66,7 @@ window.onload = function() {
 
     async function fetchAllPosts(token) {
         try {
-            const response = await fetch('http://127.0.0.1:8000/login', {
+            const response = await fetch('http://127.0.0.1:8000/posts', {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
